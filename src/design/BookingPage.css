@@ -1,0 +1,139 @@
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .hotel-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hotel-info h1 {
+    margin-bottom: 10px;
+  }
+  
+  .hotel-info p {
+    margin-bottom: 20px;
+  }
+  
+  .hotel-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+  }
+  
+  .booking-form {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control, .form-check-input, .btn {
+    display: block;
+    width: 100%;
+  }
+  
+  .button_page {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff7900;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button_page:hover {
+    background-color: #e26b03;
+  }
+  .container {
+    max-width: 1500px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+}
+.recommendations {
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 40px;
+}
+
+.recommendations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hotel-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-card h3 {
+    margin: 15px 0 10px;
+}
+
+.hotel-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.button_card {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff7900;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
